@@ -1,6 +1,6 @@
 # Zookeeper
 
-## Setup
+## Set up
 
 Warning: You need to clone this folder before starting these steps.
 
