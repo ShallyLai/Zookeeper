@@ -33,5 +33,7 @@ Step2:
 	open browser
 
 Warning:
+
 If you choose server 2181, then you need to type 127.0.0.1:3000 as your web address.
+
 Similarly, server 2182 use 127.0.0.1:4000, and server 2183 use 127.0.0.1:5000.
