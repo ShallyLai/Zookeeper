@@ -24,9 +24,8 @@ Step4:
 
 Step1:
 
-	node app.js 127.0.0.1:<server port>
+	node app.js 127.0.0.1:<server port: 2181, 2182 or 2183>
 
-server port: 2181, 2182, 2183
 
 Step2:
 
