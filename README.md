@@ -1,8 +1,16 @@
-# Zookeeper
+# Zookeeper: Anti Epidemic Products Booth
 
 ## Setup
 
-Warning: You need to clone this folder before starting these steps.
+Warning: 
+
+First, you need to set up multi-node ZooKeeper cluster first.
+
+You can refer these websites to learn how to configure.
+1. Englinsh: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-an-apache-zookeeper-cluster-on-ubuntu-18-04
+2. Chinese: https://oumuv.github.io/2018/11/26/zookeeper-colony/
+
+Then, you can clone this folder and start following steps.
 
 Step1:
 
@@ -24,9 +32,13 @@ Step4:
 
 Step1:
 
-	node app.js 127.0.0.1:<server port: 2181, 2182 or 2183>
+	./setNode.sh
 
 Step2:
+
+	node app.js 127.0.0.1:<server port: 2181, 2182 or 2183>
+
+Step3:
 	
 	open browser
 
