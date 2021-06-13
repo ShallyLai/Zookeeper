@@ -1,4 +1,3 @@
-#setup products stocks
 cd ./node_modules/node-zookeeper-client/examples
 node create.js 127.0.0.1:2181 /test1
 node set.js 127.0.0.1:2181 /test1 57

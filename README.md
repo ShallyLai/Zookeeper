@@ -4,7 +4,7 @@
 
 Warning: 
 
-First, you need to set up multi-node ZooKeeper cluster first.
+You need to set up multi-node ZooKeeper cluster first.
 
 You can refer these websites to learn how to configure.
 1. Englinsh: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-an-apache-zookeeper-cluster-on-ubuntu-18-04
@@ -30,11 +30,11 @@ Step4:
 
 ## How to use
 
-Step1:
+Step1: setup products stocks
 
 	./setNode.sh
 
-Step2:
+Step2: start every server
 
 	node app.js 127.0.0.1:<server port: 2181, 2182 or 2183>
 
