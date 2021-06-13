@@ -29,6 +29,7 @@ Step1:
 Step2:
 	
 	open browser
+
 Warning:
 
 If you choose server 2181, then you need to type 127.0.0.1:3000 as your web address.
