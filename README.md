@@ -1,4 +1,6 @@
-# Zookeeper: Anti Epidemic Products Booth
+# Zookeeper
+
+We use Zookeeper to implement a website of selling anti-epidemic products.
 
 ## Setup
 
