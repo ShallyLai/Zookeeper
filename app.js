@@ -51,8 +51,8 @@ if (port_ === 5000) {
     console.log('RUN locolhost:5000/'); 
 }
 
-
-var f, g, h, i;//store the information of each znode
+//store the information of each znode
+var f, g, h, i;
 
 function getData(client, path) {
     client.getData(
@@ -147,7 +147,7 @@ client.once('connected', function () {
     });
 
 
-    app.post('/sendform',urlencodedParser, function(req, res) {
+    app.post('/sendform', urlencodedParser, function(req, res) {
         var negative = 0
         if(req.body.productNum0){
             var num0 = parseInt(f) - parseInt(req.body.productNum0)
