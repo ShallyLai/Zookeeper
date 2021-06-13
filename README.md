@@ -2,13 +2,13 @@
 
 ## Setup
 
-Warning: 
+Warning:
 
 You need to set up multi-node ZooKeeper cluster first.
 
-You can refer these websites to learn how to configure.
+Refer these websites to learn how to configure.
 1. Englinsh: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-an-apache-zookeeper-cluster-on-ubuntu-18-04
-2. Chinese: https://oumuv.github.io/2018/11/26/zookeeper-colony/
+2. Chinese: https://doumuv.github.io/2018/11/26/zookeeper-colony/
 
 Then, you can clone this folder and start following steps.
 
@@ -30,11 +30,11 @@ Step4:
 
 ## How to use
 
-Step1: setup products stocks
+Step1: setup products' stocks
 
 	./setNode.sh
 
-Step2: start every server
+Step2: connect every server
 
 	node app.js 127.0.0.1:<server port: 2181, 2182 or 2183>
 
