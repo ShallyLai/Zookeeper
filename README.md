@@ -40,7 +40,9 @@ Step2: connect every server
 
 	node app.js 127.0.0.1:<server port: 2181, 2182 or 2183>
 
-Step3: open browser and type the web addrress with http://127.0.0.1:<client port: 3000, 4000, 5000> 
+Step3: 
+
+open browser and type the web addrress with http://127.0.0.1:3000, http://127.0.0.1:4000 or http://127.0.0.1:5000
 
 Warning:
 
