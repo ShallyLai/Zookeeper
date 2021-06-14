@@ -42,7 +42,7 @@ Step2: connect every server
 
 Step3: 
 
-open browser and type the web addrress with http://127.0.0.1:3000, http://127.0.0.1:4000 or http://127.0.0.1:5000
+Open browser and type the web addrress with http://127.0.0.1:3000, http://127.0.0.1:4000 or http://127.0.0.1:5000
 
 Warning:
 
